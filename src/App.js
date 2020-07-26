@@ -38,8 +38,7 @@ componentDidUpdate () {
   .slice(0, -10)
   .map(key => (
   messages[key] = null
-  ))
-
+  )
   this.setState({ messages })
  }
 
